@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>COMIX</title>
+	<link rel="stylesheet" href="style1.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style>
+    .open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+    </style>
+    
+</head>
+<body>
+	<div id="header" class="min">
+		<div id="line">
+		
+		</div>
+		<div id="top">
+			<div class="center">
+				<div id="sitename" class="left">
+					COMIX
+				</div>
+				<div id="slogan" class="right">
+					Lorem ipsum dolor sit ame
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div id="menu">
+			<div class="center">
+				<ul>
+					<li><a href="main.html" >HOME</a></li>
+					<li><a href="page2.html">ABOUT US</a></li>
+					<li><a href="page3.html" class="active">CONTACT US</a></li>
+					<li><a href="myaccount.html">MY ACCOUNT</a></li>
+					
+				</ul>
+			</div>
+		</div>
+		<div id="submenu">
+			<div class="center">
+				<div class="left">
+					<ul>
+						<li><a href="search.html">FACTS</a></li>
+						<li><a href="">QUETS</a></li>
+						<li><a href="">INFO</a></li>
+						<li><a href="">POSTERS</a></li>
+						<li><a href="">VIDEOS</a></li>
+						<li><a href="">COM</a></li>
+					</ul>
+				</div>
+				<div class="right">
+					 <b>User</b>
+					| <a href="loginpage.html">LOG OUT</a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+    
+    <div class="container">
+  <h2>LORE</h2>
+  <p>Curabitur a ante suscipit, euismod felis vitae, congue enim. Pellentesque et iaculis lacus. Nam tincidunt, orci ut vestibulum ultricies, elit mi sagittis lacus, at rutrum sapien turpis id dui. Suspendisse non molestie dui. Donec malesuada lectus ut consectetur dignissim. Proin tristique non lectus nec porttitor. Praesent diam risus, hendrerit nec nisi vel, facilisis hendrerit massa. Quisque sit amet dignissim lacus. In hac habitasse platea dictumst. Nam est lorem, posuere in metus aliquet, placerat bibendum ante. Sed urna tellus, malesuada nec nulla sit amet, porta aliquet sapien. Quisque posuere sagittis massa volutpat porttitor. Suspendisse a felis tempus odio lacinia egestas. Donec urna nisi, molestie in tellus in, pretium viverra est.</p>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">HISTORY</a></li>
+    <li><a data-toggle="tab" href="#menu1">ACTORS</a></li>
+    <li><a data-toggle="tab" href="#menu2">VOICE</a></li>
+    <li><a data-toggle="tab" href="#menu3">STORY</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HISTORY</h3>
+      <p>Cras dictum turpis vitae ex pharetra, eget fermentum leo mattis. Phasellus tincidunt odio nec nibh bibendum malesuada. In eu gravida nisl, et interdum justo. In hac habitasse platea dictumst. Etiam blandit feugiat dui ut euismod. Aliquam nisl turpis, pretium in mauris at, tempor tincidunt dolor. Cras aliquet ipsum leo, sit amet luctus nunc bibendum sit amet. Mauris fringilla tortor non lacus bibendum dignissim. Pellentesque et nunc ullamcorper, fermentum dolor quis, egestas ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ac nisl eleifend, sodales lacus sed, suscipit diam. Fusce diam ipsum, sodales sed ultricies nec, facilisis fringilla nulla. Quisque at nibh a justo tincidunt viverra.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>ACTORS</h3>
+      <p>Cras dictum turpis vitae ex pharetra, eget fermentum leo mattis. Phasellus tincidunt odio nec nibh bibendum malesuada. In eu gravida nisl, et interdum justo. In hac habitasse platea dictumst. Etiam blandit feugiat dui ut euismod. Aliquam nisl turpis, pretium in mauris at, tempor tincidunt dolor. Cras aliquet ipsum leo, sit amet luctus nunc bibendum sit amet. Mauris fringilla tortor non lacus bibendum dignissim. Pellentesque et nunc ullamcorper, fermentum dolor quis, egestas ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ac nisl eleifend, sodales lacus sed, suscipit diam. Fusce diam ipsum, sodales sed ultricies nec, facilisis fringilla nulla. Quisque at nibh a justo tincidunt viverra.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>VOICE</h3>
+      <p>Cras dictum turpis vitae ex pharetra, eget fermentum leo mattis. Phasellus tincidunt odio nec nibh bibendum malesuada. In eu gravida nisl, et interdum justo. In hac habitasse platea dictumst. Etiam blandit feugiat dui ut euismod. Aliquam nisl turpis, pretium in mauris at, tempor tincidunt dolor. Cras aliquet ipsum leo, sit amet luctus nunc bibendum sit amet. Mauris fringilla tortor non lacus bibendum dignissim. Pellentesque et nunc ullamcorper, fermentum dolor quis, egestas ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ac nisl eleifend, sodales lacus sed, suscipit diam. Fusce diam ipsum, sodales sed ultricies nec, facilisis fringilla nulla. Quisque at nibh a justo tincidunt viverra.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>STORY</h3>
+      <p>Cras dictum turpis vitae ex pharetra, eget fermentum leo mattis. Phasellus tincidunt odio nec nibh bibendum malesuada. In eu gravida nisl, et interdum justo. In hac habitasse platea dictumst. Etiam blandit feugiat dui ut euismod. Aliquam nisl turpis, pretium in mauris at, tempor tincidunt dolor. Cras aliquet ipsum leo, sit amet luctus nunc bibendum sit amet. Mauris fringilla tortor non lacus bibendum dignissim. Pellentesque et nunc ullamcorper, fermentum dolor quis, egestas ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ac nisl eleifend, sodales lacus sed, suscipit diam. Fusce diam ipsum, sodales sed ultricies nec, facilisis fringilla nulla. Quisque at nibh a justo tincidunt viverra.</p>
+    </div>
+  </div>
+</div>
+
+    
+    
+    
+     
+    
+    
+	
+	<div id="footer"  class="min">
+		<div id="footer-center" class="center">
+			<div id="footer-block">
+				<div id="footer-menu">
+					
+				
+					
+				</div>
+				<div id="footer-info">
+					
+					<h2>Integer a sollicitudin quam</h2>
+					<p>
+						Etiam pulvinar velit nec libero iaculis, vitae consectetur elit pellentesque.
+					</p>
+					<p>
+						Curabitur ornare tincidunt nisi id cursus.
+					</p>
+					
+					<p>
+						Praesent ullamcorper est ac lorem aliquet, sed tempus lacus iaculis. Pellentesque a odio pharetra, sagittis enim sit amet, euismod leo.
+					</p>
+					<hr>
+					<p>
+						Nulla facilisi. Nunc aliquet, erat sed ullamcorper malesuada, sapien magna tempor augue, at malesuada felis enim at quam. Curabitur ornare tincidunt nisi id cursus. Nunc finibus non massa in vestibulum. Etiam euismod metus ut euismod sagittis. Donec tincidunt neque a dolor posuere egestas.
+					</p>
+					
+				</div>
+				
+				
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		
+	</div>
+    <script>
+
+        
+     
+        
+        
+        
+</script>
+</body>
+</html>
